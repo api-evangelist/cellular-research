@@ -1,8 +1,23 @@
 aid: cellular-research
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cellular-research.png
 name: Cellular Research
-description: Cellular Research is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Cellular Research, Inc. was a single-cell genomics company backed by Canaan Partners
+  that developed molecular-indexing (its "Precise" assay) technology for high-throughput single-cell
+  gene expression analysis. The company was acquired by Becton Dickinson (BD) in 2015 and its technology
+  became the foundation of the BD Rhapsody single-cell analysis platform. As a life-sciences instrument
+  and reagent company folded into BD, it exposes no independent public developer portal, API, or
+  machine-readable API surface; this profile is retained as a portfolio-lead identity record only.
 url: https://raw.githubusercontent.com/api-evangelist/cellular-research/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +27,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Single-Cell Genomics
+- Genomics
+- Life Sciences
+- Biotechnology
+- Molecular Diagnostics
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
